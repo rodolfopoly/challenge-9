@@ -1,12 +1,12 @@
 
 
-  ![License](https://img.shields.io/crates/l/BSD?color=green&style=for-the-badge)
+  ![License](https://img.shields.io/crates/l/gnu?color=green&style=for-the-badge)
 
-  # fvsv 
+  # Readme Generator 
   
   ## Description
   
-  svesv
+  In this section we put a description of our project
   
   ## Table of Contents
   * [Installation](#installation)
@@ -18,28 +18,29 @@
   
   ## Installation
   
-  sfvsef
+  Here you can instruct your audience on installing and setting up your app
   
   ## Usage
   
-  sdfvsd
+  Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources
 
   ## License
   
-    BSD
+    GNU
   
   ## Contributing
   
-  sdfvds
+  Attributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
  
   ## Tests
   
-  afsva
+  Test section
   
   ## Questions
   if you have any questions you can reach me here
 
-  [GITHUB](https://github.com/rodolfopoly)
+  [rodolfopoly](https://github.com/rodolfopoly)
+
   [rodolfopoly@gmail.com](mailto:rodolfopoly@gmail.com)
   
   
