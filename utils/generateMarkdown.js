@@ -5,13 +5,13 @@
 function renderLicenseBadge(license) {
   if (license !== 'none') {
     if (license == 'X11') {
-      return license = '[![License](https://img.shields.io/crates/l/x11?color=green&style=for-the-badge)]';
+      return license = '![License](https://img.shields.io/crates/l/x11?color=green&style=for-the-badge)';
     }
     if (license == 'GNU') {
-      return license = '[![License](https://img.shields.io/crates/l/gnu?color=green&style=for-the-badge)]';
+      return license = '![License](https://img.shields.io/crates/l/gnu?color=green&style=for-the-badge)';
     }
     if (license == 'BSD') {
-      return license = '[![License](https://img.shields.io/crates/l/BSD?color=green&style=for-the-badge)]';
+      return license = '![License](https://img.shields.io/crates/l/BSD?color=green&style=for-the-badge)';
     }
     else {
       return license = '';
@@ -83,8 +83,7 @@ function generateMarkdown(data) {
   if you have any questions you can reach me here
 
   [GITHUB](https://github.com/${data.github})
-  
-  [EMAIL](${data.email})
+  [${data.email}](mailto:${data.email})
   
   `;
 }
