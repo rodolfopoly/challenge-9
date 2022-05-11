@@ -2,7 +2,7 @@
 
   ![License](https://img.shields.io/crates/l/gnu?color=green&style=for-the-badge)
   
-  # [demo](https://drive.google.com/file/d/1SDhsVejLOpYXiHR-qYGmpT_pHhBJuMtw/view) 
+  # [Demo Video](https://drive.google.com/file/d/1SDhsVejLOpYXiHR-qYGmpT_pHhBJuMtw/view) 
 
   # Readme Generator 
   
