@@ -4,14 +4,14 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'none') {
-    if (license == 'x11') {
-      return '[!License](https://img.shields.io/crates/l/x11?color=green&style=for-the-badge)';
+    if (license == 'X11') {
+      return license = '[![License](https://img.shields.io/crates/l/x11?color=green&style=for-the-badge)]';
     }
-    if (license !== 'GNU') {
-      return '[!License](https://img.shields.io/crates/l/gnu?color=green&style=for-the-badge)';
+    if (license == 'GNU') {
+      return license = '[![License](https://img.shields.io/crates/l/gnu?color=green&style=for-the-badge)]';
     }
-    if (license !== 'BSD') {
-      return '[!License](https://img.shields.io/crates/l/BSD?color=green&style=for-the-badge)';
+    if (license == 'BSD') {
+      return license = '[![License](https://img.shields.io/crates/l/BSD?color=green&style=for-the-badge)]';
     }
     else {
       return license = '';
@@ -22,22 +22,22 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (!license) {
-    license == '* [License](#license)';
+  if (license !== 'none') {
+    return license = '* [License](#license)';
   } else {
-    license = '';
+    return license = '';
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-const renderLicenseSection = license => {
+function renderLicenseSection(license) {
   if (!license.length) {
     return license = '';
   } else {
-    `## License
+    return `## License
   
-  ${license}`;
+    ${license}`;
   }
 };
 
